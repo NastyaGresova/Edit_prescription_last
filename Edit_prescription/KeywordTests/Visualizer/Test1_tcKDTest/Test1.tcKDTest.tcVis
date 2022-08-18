@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item0000000000">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1361"/>
+					<Prp name="click point y" type="I" value="498"/>
+					<Prp name="datetime" type="D" value="44742.3850578704"/>
+					<Prp name="image file name" type="S" value="tcvi77360.png"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object left" type="I" value="1300"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsAppSchemes.AppSchemesForm.pGrid.pSearch.TEdit"/>
+					<Prp name="object right" type="I" value="1407"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi77360.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1361"/>
+					<Prp name="click point y" type="I" value="498"/>
+					<Prp name="datetime" type="D" value="44742.3850810185"/>
+					<Prp name="image file name" type="S" value="tcvi77361.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object left" type="I" value="1300"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsAppSchemes.AppSchemesForm.pGrid.pSearch.TEdit"/>
+					<Prp name="object right" type="I" value="1407"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi77361.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44742.3851388889"/>
+					<Prp name="image file name" type="S" value="tcvi77363.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object left" type="I" value="1300"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsAppSchemes.AppSchemesForm.pGrid.pSearch.TEdit"/>
+					<Prp name="object right" type="I" value="1407"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi77363.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1339"/>
+					<Prp name="click point y" type="I" value="501"/>
+					<Prp name="datetime" type="D" value="44742.385162037"/>
+					<Prp name="image file name" type="S" value="tcvi77365.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object left" type="I" value="1300"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsAppSchemes.AppSchemesForm.pGrid.pSearch.TEdit"/>
+					<Prp name="object right" type="I" value="1407"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi77365.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44742.3852199074"/>
+					<Prp name="image file name" type="S" value="tcvi77367.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object left" type="I" value="1300"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsAppSchemes.AppSchemesForm.pGrid.pSearch.TEdit"/>
+					<Prp name="object right" type="I" value="1407"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi77367.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Prp name="key" type="S" value="{F8B33696-1200-47E1-BE64-A6C7A24B44DA}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

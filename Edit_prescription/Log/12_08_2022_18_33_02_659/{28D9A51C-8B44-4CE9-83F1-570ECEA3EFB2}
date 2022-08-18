@@ -1,0 +1,3117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 160">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="160"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800231597"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 112">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="112"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="date" type="D" value="44785.7793732523"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 5 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 178">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="178"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802230671"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 102">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792093056"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 130">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="130"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794220023"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 131">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="131"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.779496713"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (361, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;SimplePanel&quot;).VCLObject(&quot;edMed&quot;)"/>
+			<Prp name="date" type="D" value="44785.7778452431"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 191">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="191"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802262963"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 199">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="199"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;memTotalDescription&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;ЯНТАВИТ ТАБ. - начиная с 12.08.2022 дозировка: 1 таб. ; инттервал в часах: 1 дн. ; продолжительность в днях: по необх. *** TEST ***349541медикамент: 349541&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;ЯНТАВИТ ТАБ. - начиная с 12.08.2022 дозировка: 1 таб. ; инттервал в часах: 1 дн. ; продолжительность в днях: по необх. *** TEST ***349541медикамент: 349541&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="44785.7805573843"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals ЯНТАВИТ ТАБ. - начиная с 12.08.2022 дозировка: 1 таб. ; инттервал в часах: 1 дн. ; продолжительность в днях: по необх. *** TEST ***349541медикамент: 349541)."/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785565393"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 154">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="154"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798174074"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 143">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="143"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798168866"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="date" type="D" value="44785.7787197685"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785566667"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 169">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="169"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800235532"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 163">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="163"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.780023287"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 121">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="121"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794189005"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 141">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="141"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.779816794"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 189">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="189"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802262153"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783491088"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="date" type="D" value="44785.7789310069"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 3 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 155">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="155"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.779880081"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 156">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="156"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 2))"/>
+			<Prp name="date" type="D" value="44785.7799697685"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783494213"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 113">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="113"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7793828357"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7785175579"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'1239e9qewioJSOWIE' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;memComment&quot;)"/>
+			<Prp name="date" type="D" value="44785.7779375694"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 200">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="200"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnHeader&quot;).VCLObject(&quot;pnPrMain&quot;).VCLObject(&quot;memComment&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;1239e9qewioJSOWIE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;1239e9qewioJSOWIE&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="44785.7805584375"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals 1239e9qewioJSOWIE)."/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 187">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="187"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802234607"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   7"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787734028"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789786921"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 136">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="136"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 2))"/>
+			<Prp name="date" type="D" value="44785.7797719907"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 0 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 128">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="128"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.779419213"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789783912"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 170">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="170"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800235995"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 188">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="188"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802235069"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 133">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="133"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7796139352"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="ok!!!2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 161">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="161"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.780023206"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 204">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="204"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_13&quot;)"/>
+			<Prp name="date" type="D" value="44785.7806103472"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 182">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="182"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802232407"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 106">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792094792"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (72, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;SimplePanel&quot;).VCLObject(&quot;dblPrIntakeMethods&quot;).VCLObject(&quot;Code&quot;).Window(&quot;Edit&quot;, &quot;&quot;, 1)"/>
+			<Prp name="date" type="D" value="44785.7779113426"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="date" type="D" value="44785.7785079282"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 196">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="196"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7804048727"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 139">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="139"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798167014"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 173">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="173"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800237384"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 85">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.778978831"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 117">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="117"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794187269"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 140">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="140"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798167477"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 138">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="138"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798166551"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783495486"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 183">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="183"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.780223287"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 98">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792091204"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 145">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="145"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798169792"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785563079"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785561111"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 132">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="132"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7796041667"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785563889"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 115">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="115"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794186343"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 142">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="142"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798168403"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 146">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="146"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798170255"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7782088426"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 100">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.779209213"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785562153"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 144">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="144"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798169329"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 107">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792095255"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783493287"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 192">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="192"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802263426"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7784206713"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785566204"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 108">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792095718"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 166">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="166"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800234375"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 122">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="122"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794189468"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 162">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="162"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800232407"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 71">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7788406713"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 164">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="164"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800233333"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785564352"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787731944"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 152">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="152"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798173148"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 198">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="198"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnHeader&quot;).VCLObject(&quot;pnPrMain&quot;).VCLObject(&quot;edMed&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;Янтавит таб.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;Янтавит таб.&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="44785.780556088"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals Янтавит таб.)."/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'3790' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;pSearch&quot;).Window(&quot;TEdit&quot;, &quot;&quot;, 1)"/>
+			<Prp name="date" type="D" value="44785.7778513426"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787732523"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7783063426"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 158">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="158"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800230787"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7781409143"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="дн.&#xA;нед.&#xA;мес.&#xA;постоянно&#xA;до контр. явки&#xA;по необх."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="date" type="D" value="44785.7791528356"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 4 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792090393"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 165">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="165"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800233912"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789789236"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785560532"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 197">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="197"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_11&quot;)"/>
+			<Prp name="date" type="D" value="44785.7804814468"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 202">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="202"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7805584838"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Схема:    ЯНТАВИТ ТАБ. - начиная с 12.08.2022 дозировка: 1 таб. ; инттервал в часах: 1 дн. ; продолжительность в днях: по необх. *** TEST ***349541медикамент: 349541"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787730903"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 127">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="127"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794191667"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783497338"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.778349375"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787731482"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787734838"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 175">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="175"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7800791319"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 120">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="120"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794188542"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 88">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789789699"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 124">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="124"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794190394"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783490162"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789785185"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783494676"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 103">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792093519"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   6"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 171">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="171"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800236574"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 86">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789788773"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 184">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="184"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802233218"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 157">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="157"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7799794907"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787791435"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 94">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792089468"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 97">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792090856"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789786574"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787788542"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.778556169"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785565741"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785563426"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783496875"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 203">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="203"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.780573912"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 168">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="168"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800235185"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787733102"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="units"/>
+		<Node name="message 66">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787789468"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7787292708"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787789005"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 148">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="148"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798171181"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 195">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="195"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7802814583"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 153">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="153"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798173495"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792091667"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 150">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="150"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798172222"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7781319907"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7786313773"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783492014"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;tbAddDrug&quot;)"/>
+			<Prp name="date" type="D" value="44785.7778651389"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789783449"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783496412"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 135">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="135"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7796818634"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="date" type="D" value="44785.7782967245"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 0 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 180">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="180"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802231481"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789784722"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 149">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="149"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798171644"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 114">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="114"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794185995"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="F   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 194">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="194"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802264352"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 181">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="181"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802231944"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 174">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="174"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800237847"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789785648"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7780286343"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 123">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="123"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794189931"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   7"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 91">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7790562268"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 134">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="134"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7796139583"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="мин.&#xA;час&#xA;дн."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 186">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="186"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802234259"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="L   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 104">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792093982"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 105">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792094329"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783491551"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IMA   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783495949"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 84">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789787847"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CC   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (38, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;GlossarySheet&quot;).VCLObject(&quot;tcGlossKind&quot;).Window(&quot;TGlossViewer&quot;, &quot;&quot;, 1)"/>
+			<Prp name="date" type="D" value="44785.7779139005"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787789931"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7791625579"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 109">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="109"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792096065"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 172">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="172"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800236921"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 116">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="116"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794186806"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 205">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="205"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).Window(&quot;TMessageForm&quot;, &quot;Подтверждение&quot;, 1).VCLObject(&quot;Yes&quot;)"/>
+			<Prp name="date" type="D" value="44785.7806225347"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787733565"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.778556794"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 167">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="167"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7800234722"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   7"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 137">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="137"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7797816551"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;btnAddDrugPrescr&quot;)"/>
+			<Prp name="date" type="D" value="44785.7779523727"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 201">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="201"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7805584606"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DOSE_COUNT = 1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783492477"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 185">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="185"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802233796"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 179">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="179"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802231134"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 190">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="190"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802262616"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 147">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="147"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798170718"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   7"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 193">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="193"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7802263889"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789790625"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 63">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787735417"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 101">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792092593"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.778349294"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785567477"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 126">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="126"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794191204"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="FI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 118">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="118"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794187616"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 125">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="125"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794190741"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 69">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787790972"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 176">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="176"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor.pRecord.pcPrescr.tsIntakeScheme.pnTemplate.fmPRPlanBuilder_1.pnPrTemplate.sbTemplates.fmPREmbeddedTemplate.pnMain.pnLeft.pnTemplate.TComboBox&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;sbTemplates&quot;).VCLObject(&quot;fmPREmbeddedTemplate&quot;).VCLObject(&quot;pnMain&quot;).VCLObject(&quot;pnLeft&quot;).VCLObject(&quot;pnTemplate&quot;).Window(&quot;TComboBox&quot;, &quot;&quot;, 2))"/>
+			<Prp name="date" type="D" value="44785.7801729051"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787790509"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 177">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="177"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7801826157"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792089931"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;tbClose&quot;)"/>
+			<Prp name="date" type="D" value="44785.7789409491"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785567014"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SD   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 111">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="111"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_12&quot;)"/>
+			<Prp name="date" type="D" value="44785.7792789005"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 119">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="119"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7794188079"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="I   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783490625"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7787734491"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IM   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7785562616"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="IT   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 159">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="159"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.780023125"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="N1   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7783495023"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="D   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.778556493"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789784259"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="CN   1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 110">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="110"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7792096528"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="DMS   таб."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 129">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="129"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.779421956"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 151">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="151"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7798172685"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LI   "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7781409028"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="ok!!!1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789790162"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="SP   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.7789786111"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="S   0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44785.77897875"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="LM   5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

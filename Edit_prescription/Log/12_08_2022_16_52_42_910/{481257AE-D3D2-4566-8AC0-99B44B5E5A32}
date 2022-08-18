@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 12">
+			<Prp name="date" type="D" value="44785.7046214468"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnHeader&quot;).VCLObject(&quot;pnPrMain&quot;).VCLObject(&quot;dblPrIntakeMethods&quot;).VCLObject(&quot;Code&quot;).Window(&quot;Edit&quot;, &quot;&quot;, 1)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;Внутрь (per os)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;Внутрь (per os)&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals Внутрь (per os))."/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="date" type="D" value="44785.7046427778"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.DirServEditor&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;))"/>
+			<Prp name="message" type="S" value="The 'Назначение: МЕДИКАМЕНТЫ_1 [просмотр записи]' window was closed."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="date" type="D" value="44785.7046821296"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).Window(&quot;TMessageForm&quot;, &quot;Подтверждение&quot;, 1).VCLObject(&quot;Yes&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="date" type="D" value="44785.7046175463"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnHeader&quot;).VCLObject(&quot;pnPrMain&quot;).VCLObject(&quot;edMed&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;Янтавит таб.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;Янтавит таб.&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals Янтавит таб.)."/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="44785.7043990393"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (38, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;GlossarySheet&quot;).VCLObject(&quot;tcGlossKind&quot;).Window(&quot;TGlossViewer&quot;, &quot;&quot;, 1)"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="date" type="D" value="44785.7043964468"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (72, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;SimplePanel&quot;).VCLObject(&quot;dblPrIntakeMethods&quot;).VCLObject(&quot;Code&quot;).Window(&quot;Edit&quot;, &quot;&quot;, 1)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="date" type="D" value="44785.7046225"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="DOSE_COUNT = 3556"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="date" type="D" value="44785.7046721412"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_13&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="date" type="D" value="44785.7046197685"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnHeader&quot;).VCLObject(&quot;pnPrMain&quot;).VCLObject(&quot;cbMU&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;таб.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;таб.&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals таб.)."/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="44785.7043325116"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.pGrid.GridPanel.Grid.PopupMenu&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;GridPanel&quot;).VCLObject(&quot;Grid&quot;).PopupMenu)"/>
+			<Prp name="message" type="S" value="The menu item 'test test' was clicked."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="date" type="D" value="44785.7046224653"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnHeader&quot;).VCLObject(&quot;pnPrMain&quot;).VCLObject(&quot;memComment&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;1239e9qewioJSOWIE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;1239e9qewioJSOWIE&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals 1239e9qewioJSOWIE)."/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="44785.7042987153"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'3790' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;pSearch&quot;).Window(&quot;TEdit&quot;, &quot;&quot;, 1)"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="date" type="D" value="44785.7046225116"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Схема:    ЯНТАВИТ ТАБ. - начиная с 12.08.2022 16:00:00 2 таб. в 16:00, до еды, в течение 254 недель *** TEST ***349493медикамент: 349493"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="date" type="D" value="44785.7043938079"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'1239e9qewioJSOWIE' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;memComment&quot;)"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="date" type="D" value="44785.7045301852"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBar&quot;).VCLObject(&quot;TToolButton_11&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="44785.7044346412"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (97, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;btnAddDrugPrescr&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="44785.7043241435"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (341, 375) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.pGrid.GridPanel.Grid&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;GridPanel&quot;).VCLObject(&quot;Grid&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the right mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="44785.7042909491"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (361, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_935A08B5B8DF4F818224FADDDC3642E2&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;SimplePanel&quot;).VCLObject(&quot;edMed&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units"/>
+		<Node name="message 10">
+			<Prp name="date" type="D" value="44785.7046188426"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Object:&lt;/td&gt;&lt;td&gt;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;DirServEditor&quot;).VCLObject(&quot;pRecord&quot;).VCLObject(&quot;pcPrescr&quot;).VCLObject(&quot;tsIntakeScheme&quot;).VCLObject(&quot;pnTemplate&quot;).VCLObject(&quot;fmPRPlanBuilder_1&quot;).VCLObject(&quot;pnPrTemplate&quot;).VCLObject(&quot;memTotalDescription&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Property:&lt;/td&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Expected value:&lt;/td&gt;&lt;td&gt;ЯНТАВИТ ТАБ. - начиная с 12.08.2022 16:00:00 2 таб. в 16:00, до еды, в течение 254 недель *** TEST ***349493медикамент: 349493&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Actual value:&lt;/td&gt;&lt;td&gt;&quot;ЯНТАВИТ ТАБ. - начиная с 12.08.2022 16:00:00 2 таб. в 16:00, до еды, в течение 254 недель *** TEST ***349493медикамент: 349493&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (wText equals ЯНТАВИТ ТАБ. - начиная с 12.08.2022 16:00:00 2 таб. в 16:00, до еды, в течение 254 недель *** TEST ***349493медикамент: 349493)."/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

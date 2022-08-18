@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Node name="messages">
+					<Node name="row0">
+						<Prp name="time" type="D" value="44785.6867327083"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="extended message" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} &lt;/style&gt;&lt;body&gt;The test item execution has been stopped, because the test item's execution failed and the value of the &quot;Stop on error&quot; test item's property is &lt;i&gt;Test Item&lt;/i&gt;.&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2017&quot;&gt;Learn More About Stopping Test Execution&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+						<Prp name="message" type="S" value="The test item execution has been stopped."/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="priority" type="I" value="300"/>
+					</Node>
+				</Node>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44785.6867327083"/>
+				<Prp name="name" type="S" value="Project Log messages"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="end time" type="D" value="44785.6867327083"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages">
+					<Node name="row0">
+						<Prp name="time" type="D" value="44785.6867295023"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="extended message" type="S" value=""/>
+						<Prp name="message" type="S" value="The execution process was interrupted."/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="priority" type="I" value="300"/>
+					</Node>
+				</Node>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44785.6864348495"/>
+				<Prp name="name" type="S" value="Script Test Log [Calculator_and_Typical_scheme\Test17]"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{B45E020C-0DF1-4B61-90E1-E5C1018E7A94}"/>
+				<Prp name="end time" type="D" value="44785.6867326968"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>
